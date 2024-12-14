@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Agatsa - ">
+
+    <!-- ========== Page Title ========== -->
+    <title>Agatsa Future is Near </title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/themify-icons.css" rel="stylesheet" />
+    <link href="assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="assets/css/elegant-icons.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+
+</head>
+
+<body>
+    
+    
+    
+
+    <!-- Preloader Start -->
+    <div id="site-preloader" class="site-preloader">
+        <div class="loader-wrap">
+            <div class="ring">
+                <span></span>
+            </div>
+            <h2>Agatsa</h2>
+        </div>
+    </div>
+    <!-- Preloader Ends -->
+    <div id="cookie-popup">
+        <div class="cookie-content">
+          <h2>We use cookies to improve your browsing experience</h2>
+          <p>Some cookies are necessary for the website to function and cannot be switched off in our systems. These cookies do not store any personally identifiable information.</p>
+          <div class="buttons">
+            <button id="accept-btn">I Accept</button>
+            <a href="cookies.html" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+      
+       
+    
+        <script>
+           // Check if the user has already accepted cookies
+           const cookiePopup = document.querySelector("#cookie-popup");
+const acceptBtn = document.querySelector("#accept-btn");
+
+function hidePopup() {
+  cookiePopup.style.display = "none";
+}
+
+function acceptCookies() {
+  document.cookie = "cookie-consent=accepted; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+  hidePopup();
+}
+
+if (document.cookie.indexOf("cookie-consent=accepted") === -1) {
+  cookiePopup.style.display = "block";
+  acceptBtn.addEventListener("click", acceptCookies);
+}
+
+        </script>
+    <!-- </div> -->
+     
+      
+ 
+
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default navbar-fixed dark no-background bootsnav">
+
+           
+
+            <div class="container-full">
+
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                    
+                        <li class="side-menu">
+                            <a href="#">
+                                <span class="bar-1"></span>
+                                <span class="bar-2"></span>
+                                <span class="bar-3"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>        
+                <!-- End Atribute Navigation -->
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li class="dropdown">
+                            <a href="index.html">Home</a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="about-us.html">About Us</a>
+                           
+                        </li>
+                        <li class="dropdown">
+                            <a href="https://blog.agatsa.com/" target="_blank" >Blog</a>
+                            
+                        </li>
+                        <li class="dropdown">
+                            <a href="shop.html" >Shop</a>
+                            
+                        </li>
+                        <li><a href="News.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+
+            <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="icon_close"></i></a>
+                <div class="widget">
+                    <img src="assets/img/logo.png" alt="Logo">
+                    <p>
+                        Agatsa  is a Leading Solution Provider For Rapid Assessment of Cardiac Health for both Doctors and Non Doctors using its AI and IOT driven Platform called “SanketLife” 
+
+                </div>
+                <div class="widget address">
+                    <div>
+                        <ul>
+                            <li>
+                                <div class="content">
+                                    <p>Address</p> 
+                                    <strong>B-01, Sector 59, Noida, U.P. 201301</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <p>Email</p> 
+                                    <strong> Info@agatsa.com</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <p>Contact</p> 
+                                    <strong>+91-1140844783</strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget newsletter">
+                    <h4 class="title">Get Subscribed!</h4>
+                    <form action="#">
+                        <div class="input-group stylish-input-group">
+                            <input type="email" placeholder="Enter your e-mail" class="form-control" name="email">
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <i class="arrow_right"></i>
+                                </button>  
+                            </span>
+                        </div>
+                    </form>
+
+
+                </div>
+                <div class="widget social">
+                    <ul class="link">
+                        <li><a href="https://www.facebook.com/agatsa"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://mobile.twitter.com/agatsa_in"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://in.linkedin.com/company/agatsa"><i class="fab fa-linkedin-in"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!-- End Side Menu -->
+
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Banner 
+    ============================================= -->
+    <div class="banner-area circle-bg">
+        <div class="item">
+            <div class="box-table">
+                <div class="box-cell">
+                    <div class="container">
+                        <div class="banner-items">
+                            <div class="row align-center">
+                                <div class="col-lg-6">
+                                    <div class="content">
+                                        <h2 class="wow fadeInDown" data-wow-duration="400ms">Agatsa working for affordable, connected health </h2>
+                                        <p class="wow fadeInUp" data-wow-duration="500ms">
+                                            We are a Medical Device Company aiming to bring Digital Cardiac Care to Everyone. We focus on Regular Health Monitoring Accessible and Affordable to All.
+                                        </p>
+                                        <a href="shop.html" class="btn-animate wow  fadeInLeft" data-wow-duration="600ms">
+                                            <span class="circle">
+                                              <span class="icon arrow"></span>
+                                            </span>
+                                            <span class="button-text">Our Products</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 thumb multi-items">
+                                    <div class="thumb-box">
+                                        <img class="wow fadeInDown" src="assets/img/illustration/dashboard.png" alt="Dashbaord">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Banner -->
+
+    
+
+    <!-- Star Main Services
+
+        
+    ============================================= -->
+    <div class="main-services-area overflow-hidden default-padding bg-gray">
+        <div class="container">
+            <div class="main-services-box">
+                <div class="row">
+
+                    <div class="left-info col-lg-5">
+                        <h5>What we do</h5>
+                        <h2>Building a Healthier Tomorrow </h2>
+                        <p>
+                            Agatsa is a Digital Healthcare Solution Provider focussing on comprehensive digital health monitoring for Doctors, Non-Doctors and other Healthcare Professionals using the AI and IoT driven platform “SanketLife”. Since 2014, we have become one of the fastest growing companies across the healthcare industry working towards developing ground-breaking innovations ensuring a healthier tomorrow for all.
+                            Agatsa has instigated a series of connected and affordable Healthcare Devices. The startup has pioneered the development of the World’s smallest 12-lead ECG device, SanketLife. Our technology has been widely acknowledged for personal and clinical use. Headquartered in Noida, we are a VC funded startup that aims to enable easy monitoring of individual’s cardiac health anytime anywhere using AI technology. 
+                                  </p>
+                        <!-- // <a class="btn circle btn-dark border btn-md" href="#">Discover More</a>> -->
+                    </div>
+
+                    <div class="right-info col-lg-7">
+                        <div class="services-items">
+                            <div class="row">
+                                <!-- Single Item -->
+                                <div class="single-item col-lg-6 col-md-6">
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="fal fa-fingerprint"></i>
+                                        </div>
+                                        <div class="info">
+                                            <h4><a href="#">Medical Grade ECG In Your Pocket </a></h4>
+                                            <p>
+                                                SanketLife series of devices are affordable, MADE IN INDIA, pocket-sized portable ECG machines that can perform medical grade single, 6-lead or 12-lead ECG tests, prepare reports, analyse and get doctor's review, all within 10 minutes. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="single-item col-lg-6 col-md-6">
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="fal fa-poll"></i>
+                                        </div>
+                                        <div class="info">
+                                            <h4><a href="#">ECG Anywhere, Anytime</a></h4>
+                                            <p>
+                                                SanketLife is the world's smallest, clinical grade, touch-based portable ECG Monitor. It is a pocket ECG machine, which can be carried anywhere and can be operated by anyone with minimal or no training. It can take a full 12-Lead ECG.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <div class="single-item col-lg-6 col-md-6">
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="fal fa-bullseye-arrow"></i>
+                                        </div>
+                                        <div class="info">
+                                            <h4><a href="#">Recommended and Used by Doctors</a></h4>
+                                            <p>
+                                                SanketLife is trusted and used by doctors, healthcare professionals, diagnostic services and patients. Along with ECG, this portable Heart monitor can measure accurate Heart rate (HR), Heart Rate Variability (HRV), Stress and almost 80+ Heart diseases.ct authority.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Single Item -->
+                                <!-- Single Item -->
+                                <!-- <div class="single-item col-lg-6 col-md-6">
+                                    <div class="item">
+                                        <div class="icon">
+                                            <i class="fal fa-box-full"></i>
+                                        </div>
+                                        <div class="info">
+                                            <h4><a href="#">Social Media</a></h4>
+                                            <p>
+                                               Preferred joy agreement put continual felicity elsewhere delivered now collect authority. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- End Single Item -->
+                            </div>
+                        </div>
+                    </div> 
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Main Services Area -->
+
+    <!-- Start Features
+    ============================================= -->
+    <div class="feature-area default-padding-bottom bottom-less">
+        <!-- Shape -->
+       <div class="fixed-bottom-shape" style="background-image: url(assets/img/shape/19.png);"></div>
+       <!-- Shape -->
+       <div class="container">
+           <div class="feature-items text-center">
+               <div class="row">
+                   <!-- Single Item -->
+                   <div class="single-item col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                       <div class="item">
+                           <div class="info">
+                               <h4>Apps & Website</h4>
+                               <p>
+                                   Our Mobile apps for Android, iPhone provide real time Health report, connect to doctors on  click of a button 
+                               </p>
+                           </div>
+                           <div class="icon">
+                               <img src="assets/img/icon/management.png" alt="Icon">
+                           </div>
+                       </div>
+                   </div>
+                   <!-- End Single Item -->
+                   <!-- Single Item -->
+                   <div class="single-item col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="500ms">
+                       <div class="item">
+                           <div class="info">
+                               <h4>Cloud & AI</h4>
+                               <p>
+                                   Our cloud, not only implements AI, but it also enables other B2B companies to perform EMR integrations in under 30 mins
+                                   
+                               </p>
+                           </div>
+                           <div class="icon">
+                               <img src="assets/img/icon/branding.png" alt="Icon">
+                           </div>
+                       </div>
+                   </div>
+                   <!-- End Single Item -->
+                   <!-- Single Item -->
+                   <div class="single-item col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="700ms">
+                       <div class="item">
+                           <div class="info">
+                               <h4>Device</h4>
+                               <p>
+                                   We make devices that consumers can use by themselves, accurate and most affordable.
+                               </p>
+                           </div>
+                           <div class="icon">
+                               <img src="assets/img/icon/Interaction.png" alt="Icon">
+                           </div>
+                       </div>
+                   </div>
+                   <!-- End Single Item -->
+               </div>
+           </div>
+       </div>
+   </div>
+   <!-- End Features -->
+
+    <!-- Star About
+    ============================================= -->
+    <div class="about-content-area default-padding">
+        <div class="container">
+            <div class="row align-center">
+
+                <div class="col-lg-6 thumb wow fadeInUp">
+                    <img src="assets/img/illustration/14.png" alt="Thumb">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="fun-fact-list">
+                        <ul class="achivement">
+                            <li>
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="48" data-speed="50">48</div>
+                                        <div class="operator">K+</div>
+                                    </div>
+                                    <span class="medium">World Customer</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="990" data-speed="5000">990</div>
+                                        <div class="operator">K+</div>
+                                    </div>
+                                    <span class="medium">No. of Lives Saved </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="45023" data-speed="023">45023</div>
+                                        <div class="operator">+</div>
+                                    </div>
+                                    <span class="medium">No. of Diseases Captured</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Start Case Studies Area
+    ============================================= -->
+    <div class="case-studies-area default-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="heading-center text-center">
+                        <h5>It's Time To Choose Aagtsa</h5>
+                        <h2>Our Recent popular awesome health products</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fill">
+            <div class="case-carousel text-center owl-carousel owl-theme">
+                <div class="item">
+                    <div class="thumb">
+                        <img src="assets/img/SanketLife 2.0.png" alt="Thumb">
+                    </div>
+                    <div class="info">
+                        <div class="tags">
+                            <a href="#">Medical</a> / 
+                            <a href="#">Device</a>
+                        </div>
+                        <h4>
+                            <a href="https://sanketlife.in/products/pages-sanketlife2-0" target="_blank">SanketLife 2.0</a>
+                        </h4>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumb">
+                        <img src="assets/img/SanketLife Pro+.png" alt="Thumb">
+                    </div>
+                    <div class="info">
+                        <div class="tags">
+                            <a href="#">Medical </a> / 
+                            <a href="#">Device</a>
+                        </div>
+                        <h4>
+                            <a href="https://sanketlife.in/products/sl-professional" target="_blank">SanketLife Pro+</a>
+                        </h4>
+                    </div>
+                </div>
+              
+                
+            </div>
+        </div>
+    </div>
+    <!-- End Case Studies Area -->
+
+    <!-- Star Faq
+    ============================================= -->
+    <div class="faq-area default-padding-bottom">
+        <div class="container">
+            <div class="faq-items">
+                <div class="row">
+
+                    <div class="col-lg-6 thumb">
+                        <img src="assets/img/illustration/13.png" alt="Shape">
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="faq-content">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h4 class="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            How  Many diseases your sanketlife app can detect?
+                                        </h4>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                The SanketLife app with the help of an AIalgorithm can detect almost 80 cardiac diseases. After taking an ECG with theSanketLife device, the report generated is analysed and the AI algorithm alarmsyou in case of any abnormalities detected.                                             </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            How can Lead III, AVR, AVL, andAFV Generate?
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                These leads are auto-generated after takingtwo leads ( Lead I and Lead II) with the help of an AI algorithm. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h4 class="mb-0 collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            What comes in the interpretation report?
+                                      </h4>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p>
+                                                The interpretation report will show you thebasic interpretation and conditions of your heart like Sinus Rhythm, SinusBradycardia, Sinus Tachycardia, Atrial Fibrillation and SupraventricularTachycardia. The interpretation report is based entirely on the AIalgorithm. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Faq -->
+
+    
+
+    <!-- Star Testimonials
+    ============================================= -->
+    <div class="testimonials-area default-padding-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="heading-center text-center">
+                        <h5>Review</h5>
+                        <h2>Made in India, Made for the World</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="testimonial-items text-center">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <div class="testimonials-carousel owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="rating">
+                                    <div class="reson">
+                                        
+                                    </div>
+                                    <div class="icon">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                                <p>
+                                    The product is great, seems accurate and customer support is very helpful and helps a lot through each stage. Delivery was fast.                                 </p>
+                                <div class="thumb-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/Ellipse 22 _1_ (1).png" alt="Thumb">
+                                    </div>
+                                </div>
+                                <h5>Khushboo S.</h5>
+                                <span>HouseWife</span>
+                            </div>
+                            <div class="item">
+                                <div class="rating">
+                                    <div class="reson">
+                                      
+                                    </div>
+                                    <div class="icon">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                                <p>
+                                    It's an wonderful device. Very compact and handy. It is of great help to professionals as well as laymen.Great work, Agatsa. </p>
+                                <div class="thumb-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/Ellipse 21 _1_ (1).png" alt="Thumb">
+                                    </div>
+                                </div>
+                                <h5>Sambit P.</h5>
+                                <span>Doctor</span>
+                            </div>
+                            <div class="item">
+                                <div class="rating">
+                                    <div class="reson">
+                                    
+                                    </div>
+                                    <div class="icon">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                                <p>
+                                    Hello, I was impressed with the electrocardiogram function, where a portable device formed a good quality layout.                                 </p>
+                                <div class="thumb-box">
+                                    <div class="thumb">
+                                        <img src="assets/img/Ellipse 23 _2_ (1).png" alt="Thumb">
+                                    </div>
+                                </div>
+                                <h5>Balaji K.</h5>
+                                <span>Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Testimonials -->
+
+    <!-- Star Blog
+    ============================================= -->
+    <div class="blog-area blog-standard bg-gray default-padding bottom-less">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="heading-center text-center">
+                        <h5>Latest Blogs</h5>
+                        <h2>Most Popular Blogs & Top Stories</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-items">
+                <div class="row">
+                    <!-- Single Item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/Blog Image.png" alt="Thumb">
+                                <div class="date">15 Jul, 2021</div>
+                                <div class="overlay">
+                                    <div class="content">
+                                        <h4>
+                                            <a href="https://blog.agatsa.com/2022/06/21/how-a-heart-monitor-can-help-you-detect-a-heart-problem-sooner-sanketlife-portable-ecg-device/" target="_blank">How a Portable ECG device can help you detect a Heart problem Sooner?.</a>
+                                        </h4>
+                                    </div>
+                                    <div class="footer-meta">
+                                       <ul>
+                                           <li>
+                                               <img src="assets/img/Neha Mam.png" alt="Author">
+                                               <span>By </span>
+                                               <a href="#">Neha Rastogi</a>
+                                           </li>
+                                           <li>
+                                               <span>In </span>
+                                               <a href="#">Agatsa</a>
+                                           </li>
+                                       </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-lg-4 col-md-6 single-item thumb-less">
+                        <div class="item">
+                            <div class="date">18 Aug, 2021</div>
+                            <h4>
+                                <a href="https://blog.agatsa.com/2021/09/15/non-invasive-glucose-monitoring-with-agatsas-incheck-beta-the-story-so-far/" target="_blank" >Non Invasive Glucose Monitoring with Agatsa’s inCheck Beta- The Story So Far.</a>
+                            </h4>
+                            <p>
+                                <a href="https://blog.agatsa.com/2021/09/15/non-invasive-glucose-monitoring-with-agatsas-incheck-beta-the-story-so-far/" target="_blank" > The prevalence of diabetes has drastically increased over the years. With approximately 463 million adults between the age of 20 to 70 living with diabetes globally. </a>
+                            <div class="footer-meta">
+                               <ul>
+                                   <li>
+                                       <img src="assets/img/Neha Mam.png" alt="Author">
+                                       <span>By </span>
+                                       <a href="#">Neha Rastogi</a>
+                                   </li>
+                                   <li>
+                                       <span>In </span>
+                                       <a href="#">Agatsa</a>
+                                   </li>
+                               </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                    <!-- Single Item -->
+                    <div class="col-lg-4 col-md-6 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/Health Blog.png" alt="Thumb">
+                                <div class="date">27 Nov, 2021</div>
+                                <div class="overlay">
+                                    <div class="content">
+                                        <h4>
+                                            <a href="https://blog.agatsa.com/2021/06/15/home-health-monitoring-choice-or-requisite/" target="_blank" >Home Health monitoring- Choice or Requisite?</a>
+                                        </h4>
+                                    </div>
+                                    <div class="footer-meta">
+                                       <ul>
+                                           <li>
+                                               <img src="assets/img/Neha Mam.png" alt="Author">
+                                               <span>By </span>
+                                               <a href="#">Neha Rastogi</a>
+                                           </li>
+                                           <li>
+                                               <span>In </span>
+                                               <a href="#">Agatsa</a>
+                                           </li>
+                                       </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog -->
+ 
+   <!-- Star Footer
+    ============================================= -->
+    <footer class="bg-dark text-light">
+        <div class="container">
+            <div class="f-items default-padding">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 item">
+                        <div class="f-item about">
+                            <h4 class="widget-title">About Us</h4>
+                            <p>
+                                Agatsa is a Leading Solution Provider For Rapid Assessment of Cardiac Health for both Doctors and Non Doctors using its AI and IOT driven Platform called “SanketLife”
+                            </p>
+                            <div class="social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/agatsa"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://mobile.twitter.com/agatsa_in"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://in.linkedin.com/company/agatsa"><i class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 item">
+                        <!-- <div class="f-item link">
+                            <h4 class="widget-title">Services</h4>
+                            <ul>
+                                <li>
+                                    <a href="#">SEO Marketing</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pay Per Click</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO Services</a>
+                                </li>
+                                <li>
+                                    <a href="#">Social Media</a>
+                                </li>
+                                <li>
+                                    <a href="#">SEO Audit</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 item">
+                        <div class="f-item link">
+                            <h4 class="widget-title">Company</h4>
+                            <ul>
+                                
+                                    <li>
+                                        <a href="about-us.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="shop.html">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 item">
+                        <div class="f-item contact">
+                            <h4 class="widget-title">Contact Us</h4>
+                            <div class="address">
+                                <ul>
+                                    <li>
+                                        <p>Address</p> 
+                                        <strong>B-01, Sector 59, Noida, U.P. 201301</strong>
+                                    </li>
+                                    <li>
+                                        <p>Email</p> 
+                                        <strong>Info@agatsa.com</strong>
+                                    </li>
+                                    <li>
+                                        <p>Contact</p> 
+                                        <strong>+91-1140844783</strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-center">
+                    <div class="col-lg-4">
+                        <p>&copy; Copyright 2021. All Rights Reserved</p>
+                    </div>
+                    <div class="col-lg-4 text-center logo">
+                        <a href="#"><img src="assets/img/logo.png" alt="Logo"></a>
+                    </div>
+                    <div class="col-lg-4 text-right newsletter">
+                        <form action="#">
+                            <div class="input-group stylish-input-group">
+                                <input type="email" placeholder="Enter your e-mail" class="form-control" name="email">
+                                <span class="input-group-addon">
+                                    <button type="submit">
+                                        <i class="fa fa-paper-plane"></i>
+                                    </button>  
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer-->
+
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.appear.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/modernizr.custom.13711.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/progress-bar.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/count-to.js"></script>
+    <script src="assets/js/YTPlayer.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
